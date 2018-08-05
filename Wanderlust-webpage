@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="e-wanderlust.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    
+    <title>e-wanderlust</title>
+   
+<style>
+body{
+    background-color: #EDEDF0;
+}
+.main-container{
+    padding: 2% 3% 0 3%;
+}
+.logo{
+    width: 100px;
+}
+.navigation-link{
+    float: right;
+    font-size: 12px;
+}
+.navigation-space{
+    margin-right: 14px;
+}
+a{
+    font-family: Roboto;
+    font-weight: 500;
+    color: #B6BCC8;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+h1{
+    font-family: Playfair;
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 72px;
+ /* transform: scaleX(1.0);*/
+}
+.hero{
+    margin:10%;
+}
+.form-input{
+    height: 55px;
+    padding-left: 3%;
+    border-width: 0.5px;
+    background-color: #EDEDF0;
+    border: 0.5px solid #B6BCC8;
+    font-size: 15px;
+    font-weight: 100;
+}
+#form-place{
+    width: 38%;
+    border-radius: 4px 0 0 4px;
+    margin-right:-6px;
+}
+#form-person{
+    margin-left:-6px;
+}
+/*.button{
+    margin-left: -4.6px;
+    width: 15%;
+    height: 57.8px;
+    margin-top:
+}*/
+button{ margin-left: -6px;
+    padding:2% 5%;
+    border-width: 0.5px;
+    background-color: #4887E0;
+    border: 0.5px solid #4887E0;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+}
+.gallery-container{
+    width: 100%;
+    height: 530px;
+    background-color: #000;
+}
+.image1{
+    width: 33.33%;
+    height: 530px;
+    background-image: url("https://i.imgur.com/AGhQK4r.png");
+    background-size: 100% 100%;
+    float:left;  
+    color: #fff;
+    text-align: center;
+}
 
+.image1 p{
+    margin-top: 200px;
+    margin-bottom: -140px;
+    font-size: 15px;
+}
+.image2{
+    width: 33.33%;
+    height: 530px;
+    background-image: url("https://i.imgur.com/YH0iygh.png");
+    background-size: 100% 100%;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+.image2 p{
+    margin-top: 200px;
+    margin-bottom: -140px;
+    font-size: 15px;
+}
+.image3{
+    width: 33.33%;
+    height: 530px;
+    background-image: url("https://i.imgur.com/MBMH6WO.jpg");
+    background-size: 100% 100%;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+.image3 p{
+    margin-top: 200px;
+    margin-bottom: -140px;
+    font-size: 15px;
+}
+.captions{
+    text-align: center;
+    margin: 160px 0 0 0;
+    font-family:  Roboto;
+}
+.captions h1{
+    font-weight: 400;
+}
+.captions p2{
+    font-size: 15px;
+}
+.captions .separator2{
+    position: absolute;
+}
+.captions .separator2 img{
+    width:25px;
+    height: 17px;
+    margin: 153px 0 0 210px;
+}
+.captions .star{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    margin: -200px 0 0 170px;
+}
+</style>
+</head>
+<body>
+    <div class="main-container">
+        <!--navigation bar-->
+        <div class="navigation">
+            <nav>
+                <a href="#"><img src="https://i.imgur.com/USiqa5a.png" class="logo" alt="logo"></a>
+                <div class="navigation-link">
+                    <a class="navigation-space" href="#">About</a>
+                    <a class="navigation-space" href="#">Log In</a>
+                    <a class="" href="#">Sign Up</a>
+                </div>
+            </nav>
+        </div>
+        <!--hero section-->
+        <div class="hero">
+                <h1>Let us take care of your next adventure.<br/>
+                    You choose where.</h1>
+
+            <!-- form -->
+            <input class="form-input" id="form-place" type="text" name="place" placeholder="search for a palce, any palce" />
+            <input class="form-input" id="form-date" type="text" name="date" placeholder="pick a date" />
+            <input class="form-input" id="form-person"type="text" name="person" placeholder="1 person" />
+            <button class="button">Search</button>
+        </div>
+   </div>
+   <!--image section-->
+   <div class="gallery-container">
+       <div class="image1">
+            <p>FEATURED</p>
+            <div class="captions">
+                    <div class="separator2"><img src="https://i.imgur.com/zxx2WYu.png"></div>
+                    <img src="https://i.imgur.com/hN0Zb3w.png" class="star">
+                <h1>Swim With<br/>
+                The Dolphins</h1>
+            
+                <p2>We'll take you to Hawaii where you can<br/>
+                live a lifelong dream many people have<br/> - swimming with dolphins</p2>  
+            </div>        
+       </div>
+       <div class="image2">
+            <p>FEATURED</p>
+            <div class="captions">
+                    <div class="separator2"><img src="https://i.imgur.com/zxx2WYu.png"></div>
+                    <img src="https://i.imgur.com/hN0Zb3w.png" class="star">
+                <h1>Cave & <br/>Canyon Trail</h1>
+            
+                <p2>Go to Las Vegas and check out the epic<br/>Canyon trails and discover some<br/>awesome hidden caves.</p2>  
+            </div>        
+       </div>
+       <div class="image3">
+            <p>FEATURED</p>
+            <div class="captions">
+                    <div class="separator2"><img src="https://i.imgur.com/zxx2WYu.png"></div>
+                    <img src="https://i.imgur.com/hN0Zb3w.png" class="star">
+                <h1>Underwater<br/>
+                Exploration</h1>
+                <p2>Go deep into the pacific ocean in<br/>specialised underwater pods.<br/>Discover the unknown.<br/></p2> 
+            </div>        
+       </div>
+   </div>
+</body>
+</html>
